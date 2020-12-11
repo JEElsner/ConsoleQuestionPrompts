@@ -1,4 +1,4 @@
-from math import rand
+import random as rand
 
 '''
 Jonathan Elsner
