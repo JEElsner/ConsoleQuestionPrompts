@@ -1,0 +1,4 @@
+# Python Build and Distribution Files
+build/*
+*.egg-info
+dist
