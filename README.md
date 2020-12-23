@@ -4,4 +4,4 @@ Python module that facilitates asking common types of questions to the user. Acc
 ## Installation and use
 1. Install Python (at least version 3.7.x)
 2. Download `questions.py` or clone this repository
-3. Import it into your python code with `import questions`
+3. Import it into your python code with `from ConsoleQuestionPrompts import questions`
