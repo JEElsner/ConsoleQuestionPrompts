@@ -31,7 +31,7 @@ def yes_no_cast(response: str):
 
     # You might think this is a little lax for what is considered affirmative,
     # or negative for that matter. The stakes aren't high, this works.
-    return response.lower()[0] == 'y'
+    return len(response) > 0 and response.lower()[0] == 'y'
 
 
 def ask_question(prompt: str, in_bounds=lambda _: True, cast=lambda x: x, error: str = 'Invalid response'):
