@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="ConsoleQuestionPrompts-JEElsner",  # Replace with your own username
-    version="1.0.0",
+    version="2.0.0",
     author="Jonathan Elsner",
     author_email="jelsnerbusiness@outlook.com",
     description="Facilitates asking questions to the user through the console.",
