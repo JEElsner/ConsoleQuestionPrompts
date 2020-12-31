@@ -166,6 +166,10 @@ def ask_some(questions: dict, n: int) -> dict:
         True/False response to the question
     '''
 
+    if n > 0 and len(questions) == 0:
+        print('Empty question set!')
+        return {}
+
     chosen = {}
 
     # Ask only n questions
